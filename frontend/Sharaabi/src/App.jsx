@@ -1,13 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
+import Footer from '../components/footer.jsx'
+import ShopView from './ShopView.jsx'
+import WhichTheka from '../components/whichTheka.jsx'
+import BrandLogo from '../components/brandLogo.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-3xl text-red-500 font-bold">LiquorQR</h1>
+    <BrandLogo />
+    <ShopView />
+    <Footer />
     </>
   )
 }
